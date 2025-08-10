@@ -1,14 +1,14 @@
 {
   "cluster": {
-    "peername": "kr-peer-02",
-    "secret": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+    "peername": "kr-peer-01",
+    "secret": "c646426b598f916698b56de8a83854a15e286cb4a08c35b28d819d169f0b9ad4",
     "leave_on_shutdown": false,
     "listen_multiaddress": [
       "/ip4/0.0.0.0/tcp/9096",
       "/ip4/0.0.0.0/udp/9096/quic"
     ],
     "announce_multiaddress": [
-      "/ip4/218.38.136.34/tcp/9096"
+      "/ip4/218.38.136.33/tcp/9096"
     ],
     "no_announce_multiaddress": [],
     "enable_relay_hop": true,
@@ -42,7 +42,7 @@
     "pin_only_on_untrusted_peers": false,
     "disable_repinning": true,
     "peer_addresses": [
-      "/ip4/211.239.117.217/tcp/9096/p2p/12D3KooWSv57nfbit9pKb2BbmBRwRsWTnaHc4rk1NccuC1QBMGAT"
+      "/ip4/27.255.70.17/tcp/9096/p2p/12D3KooWQS5kWtsQ9aU3JatgPbQxVMX32tZij6qyhKd4HZg5W7tU"
     ]
   },
   "consensus": {
@@ -50,7 +50,7 @@
 <<<<<<< HEAD
       "cluster_name": "bongaquino-ipfs-cluster",
 =======
-      "cluster_name": "koneksi-ipfs-cluster",
+      "cluster_name": "bongaquino-ipfs-cluster",
 >>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
       "trusted_peers": [
         "*"
@@ -256,26 +256,6 @@
             "filter_policy": 10,
             "index_block_size": 4096,
             "target_file_size": 67108864
-          },
-          {
-            "block_restart_interval": 16,
-            "block_size": 4096,
-            "block_size_threshold": 90,
-            "compression": 0,
-            "filter_type": 0,
-            "filter_policy": 10,
-            "index_block_size": 4096,
-            "target_file_size": 134217728
-          },
-          {
-            "block_restart_interval": 16,
-            "block_size": 4096,
-            "block_size_threshold": 90,
-            "compression": 0,
-            "filter_type": 0,
-            "filter_policy": 10,
-            "index_block_size": 4096,
-            "target_file_size": 268435456
           }
         ]
       }

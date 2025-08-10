@@ -1,6 +1,6 @@
 {
   "cluster": {
-    "peername": "kr-peer-01",
+    "peername": "kr-peer-03",
     "secret": "c646426b598f916698b56de8a83854a15e286cb4a08c35b28d819d169f0b9ad4",
     "leave_on_shutdown": false,
     "listen_multiaddress": [
@@ -8,7 +8,7 @@
       "/ip4/0.0.0.0/udp/9096/quic"
     ],
     "announce_multiaddress": [
-      "/ip4/218.38.136.33/tcp/9096"
+      "/ip4/211.239.117.217/tcp/9096"
     ],
     "no_announce_multiaddress": [],
     "enable_relay_hop": true,
@@ -50,7 +50,7 @@
 <<<<<<< HEAD
       "cluster_name": "bongaquino-ipfs-cluster",
 =======
-      "cluster_name": "koneksi-ipfs-cluster",
+      "cluster_name": "bongaquino-ipfs-cluster",
 >>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
       "trusted_peers": [
         "*"
@@ -132,7 +132,7 @@
       "connect_swarms_delay": "30s",
       "ipfs_request_timeout": "5m0s",
       "pin_timeout": "2m0s",
-      "unpin_timeout": "3h0m0s",
+      "unpin_timeout": "3h0s",
       "repogc_timeout": "24h0m0s",
       "informer_trigger_interval": 0
     }

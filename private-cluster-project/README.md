@@ -75,9 +75,9 @@ This project provides a complete **IPFS private cluster deployment** with **HAPr
 ```bash
 # Navigate to project directory
 <<<<<<< HEAD
-cd bongaquino-ipfs/private-cluster-project
+cd ipfs/private-cluster-project
 =======
-cd koneksi-ipfs/private-cluster-project
+cd ipfs/private-cluster-project
 >>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 
 # Make deployment script executable
@@ -356,9 +356,9 @@ For issues or questions:
 ## License
 
 <<<<<<< HEAD
-This project is part of the bongaquino IPFS infrastructure.
+This project is part of the IPFS infrastructure.
 =======
-This project is part of the Koneksi IPFS infrastructure.
+This project is part of the IPFS infrastructure.
 >>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 
 ---
