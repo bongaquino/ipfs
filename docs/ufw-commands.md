@@ -6,8 +6,13 @@
 - **Bootstrap Node:** 211.239.117.217
 - **Peer-01:** 218.38.136.33
 - **Peer-02:** 218.38.136.34
+<<<<<<< HEAD
 - **Backend Server:** 52.77.36.120 (bongaquino Staging Backend)
 - **UAT Bastion:** 18.139.136.149 (bongaquino-UAT-Bastion)
+=======
+- **Backend Server:** 52.77.36.120 (Koneksi Staging Backend)
+- **UAT Bastion:** 18.139.136.149 (Koneksi-UAT-Bastion)
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 
 ## Basic Commands
 
@@ -35,8 +40,13 @@ sudo ufw disable
 sudo ufw allow 22/tcp                    # Public SSH access
 sudo ufw allow from 218.38.136.33 to any port 22  # Peer-01
 sudo ufw allow from 218.38.136.34 to any port 22  # Peer-02
+<<<<<<< HEAD
 sudo ufw allow from 52.77.36.120 to any port 22   # bongaquino Staging Backend
 sudo ufw allow from 18.139.136.149 to any port 22 comment 'bongaquino-UAT-Bastion'
+=======
+sudo ufw allow from 52.77.36.120 to any port 22   # Koneksi Staging Backend
+sudo ufw allow from 18.139.136.149 to any port 22 comment 'Koneksi-UAT-Bastion'
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ```
 
 ### Peer-01 (218.38.136.33)
@@ -45,8 +55,13 @@ sudo ufw allow from 18.139.136.149 to any port 22 comment 'bongaquino-UAT-Bastio
 sudo ufw allow from 112.200.100.154 to any port 22  # Bong's IP
 sudo ufw allow from 211.239.117.217 to any port 22  # Bootstrap Node
 sudo ufw allow from 218.38.136.34 to any port 22    # Peer-02
+<<<<<<< HEAD
 sudo ufw allow from 52.77.36.120 to any port 22     # bongaquino Staging Backend
 sudo ufw allow from 18.139.136.149 to any port 22 comment 'bongaquino-UAT-Bastion'
+=======
+sudo ufw allow from 52.77.36.120 to any port 22     # Koneksi Staging Backend
+sudo ufw allow from 18.139.136.149 to any port 22 comment 'Koneksi-UAT-Bastion'
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ```
 
 ### Peer-02 (218.38.136.34)
@@ -55,8 +70,13 @@ sudo ufw allow from 18.139.136.149 to any port 22 comment 'bongaquino-UAT-Bastio
 sudo ufw allow from 112.200.100.154 to any port 22  # Bong's IP
 sudo ufw allow from 211.239.117.217 to any port 22  # Bootstrap Node
 sudo ufw allow from 218.38.136.33 to any port 22    # Peer-01
+<<<<<<< HEAD
 sudo ufw allow from 52.77.36.120 to any port 22     # bongaquino Staging Backend
 sudo ufw allow from 18.139.136.149 to any port 22 comment 'bongaquino-UAT-Bastion'
+=======
+sudo ufw allow from 52.77.36.120 to any port 22     # Koneksi Staging Backend
+sudo ufw allow from 18.139.136.149 to any port 22 comment 'Koneksi-UAT-Bastion'
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ```
 
 ## Current Port Access Configuration
@@ -112,11 +132,19 @@ sudo ufw allow from 64.224.110.64 to any    # ASHER - Initial IP whitelist - 202
 
 ### Infrastructure IPs
 ```bash
+<<<<<<< HEAD
 sudo ufw allow from 52.77.36.120 to any     # bongaquino Staging Backend
 sudo ufw allow from 211.239.117.217 to any  # Bootstrap Node
 sudo ufw allow from 218.38.136.33 to any    # Peer-01
 sudo ufw allow from 218.38.136.34 to any    # Peer-02
 sudo ufw allow from 18.139.136.149 to any   # bongaquino-UAT-Bastion
+=======
+sudo ufw allow from 52.77.36.120 to any     # Koneksi Staging Backend
+sudo ufw allow from 211.239.117.217 to any  # Bootstrap Node
+sudo ufw allow from 218.38.136.33 to any    # Peer-01
+sudo ufw allow from 218.38.136.34 to any    # Peer-02
+sudo ufw allow from 18.139.136.149 to any   # Koneksi-UAT-Bastion
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ```
 
 ## Security Configuration Summary
@@ -146,7 +174,11 @@ sudo ufw allow 22/tcp
 sudo ufw allow from 192.168.1.100 to any port 22
 
 # Allow SSH with comment
+<<<<<<< HEAD
 sudo ufw allow from 18.139.136.149 to any port 22 comment 'bongaquino-UAT-Bastion'
+=======
+sudo ufw allow from 18.139.136.149 to any port 22 comment 'Koneksi-UAT-Bastion'
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ```
 
 ### Allow HTTP/HTTPS

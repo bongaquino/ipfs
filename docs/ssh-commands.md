@@ -6,8 +6,13 @@
 - **Bootstrap Node:** 211.239.117.217
 - **Peer-01:** 218.38.136.33
 - **Peer-02:** 218.38.136.34
+<<<<<<< HEAD
 - **Backend Server:** 52.77.36.120 (bongaquino Staging Backend)
 - **UAT Bastion:** 18.139.136.149 (bongaquino-UAT-Bastion)
+=======
+- **Backend Server:** 52.77.36.120 (Koneksi Staging Backend)
+- **UAT Bastion:** 18.139.136.149 (Koneksi-UAT-Bastion)
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 
 ## SSH Access Matrix
 
@@ -42,7 +47,11 @@
 ssh ipfs@211.239.117.217
 
 # SSH via backend server
+<<<<<<< HEAD
 ssh -i ~/.ssh/bongaquino-ipfs-backend.pem ubuntu@52.77.36.120
+=======
+ssh -i ~/.ssh/koneksi-ipfs-backend.pem ubuntu@52.77.36.120
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ssh -i /home/ubuntu/.ssh/id_rsa_backend ipfs@211.239.117.217
 
 # SSH via UAT bastion
@@ -85,7 +94,11 @@ docker exec ipfs ipfs cat Qmati74KFqK8NqvHWLKcMjRtysm3bFd7b4kXb3Agtj6C8s
 ssh -i ~/.ssh/id_rsa ipfs@218.38.136.33
 
 # SSH via backend server
+<<<<<<< HEAD
 ssh -i ~/.ssh/bongaquino-ipfs-backend.pem ubuntu@52.77.36.120
+=======
+ssh -i ~/.ssh/koneksi-ipfs-backend.pem ubuntu@52.77.36.120
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ssh -i /home/ubuntu/.ssh/id_rsa_backend ipfs@218.38.136.33
 
 # SSH via UAT bastion
@@ -132,7 +145,11 @@ docker exec ipfs ipfs cat Qmati74KFqK8NqvHWLKcMjRtysm3bFd7b4kXb3Agtj6C8s
 ssh -i ~/.ssh/id_rsa ipfs@218.38.136.34
 
 # SSH via backend server
+<<<<<<< HEAD
 ssh -i ~/.ssh/bongaquino-ipfs-backend.pem ubuntu@52.77.36.120
+=======
+ssh -i ~/.ssh/koneksi-ipfs-backend.pem ubuntu@52.77.36.120
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 ssh -i /home/ubuntu/.ssh/id_rsa_backend ipfs@218.38.136.34
 
 # SSH via UAT bastion
@@ -245,11 +262,19 @@ ssh -i ~/.ssh/id_rsa ipfs@218.38.136.34 "sudo ufw status verbose"
 ### Current Whitelisted IPs for SSH Access
 
 #### Infrastructure IPs
+<<<<<<< HEAD
 - **52.77.36.120** - bongaquino Staging Backend
 - **211.239.117.217** - Bootstrap Node
 - **218.38.136.33** - Peer-01
 - **218.38.136.34** - Peer-02
 - **18.139.136.149** - bongaquino-UAT-Bastion
+=======
+- **52.77.36.120** - Koneksi Staging Backend
+- **211.239.117.217** - Bootstrap Node
+- **218.38.136.33** - Peer-01
+- **218.38.136.34** - Peer-02
+- **18.139.136.149** - Koneksi-UAT-Bastion
+>>>>>>> ff1a2945f8bd7c03b52b06fcba179354b2b893ff
 
 #### Team Member IPs
 - **112.200.100.154** - Bong's IP
